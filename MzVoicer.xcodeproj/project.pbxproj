@@ -3,27 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F4C23350DD054501BA7320B /* Pods_MzVoicer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E645DFF17C206CA786082A07 /* Pods_MzVoicer.framework */; };
 		A59B65FC2444C1CE006864FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A59B65FB2444C1CE006864FC /* AppDelegate.m */; };
 		A59B66072444C1CF006864FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59B66062444C1CF006864FC /* Assets.xcassets */; };
-		A59B660A2444C1CF006864FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59B66082444C1CF006864FC /* LaunchScreen.storyboard */; };
 		A59B660D2444C1CF006864FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A59B660C2444C1CF006864FC /* main.m */; };
 		A59B66182444C24F006864FC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59B66172444C24F006864FC /* MainViewController.m */; };
+		EE21F4AD2447012E0047FEBD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE21F4AC2447012E0047FEBD /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0317B4CC09027A70315FBC78 /* Pods-MzVoicer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MzVoicer.debug.xcconfig"; path = "Target Support Files/Pods-MzVoicer/Pods-MzVoicer.debug.xcconfig"; sourceTree = "<group>"; };
+		76C7AF782236FF87D9EEF771 /* Pods-MzVoicer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MzVoicer.release.xcconfig"; path = "Target Support Files/Pods-MzVoicer/Pods-MzVoicer.release.xcconfig"; sourceTree = "<group>"; };
 		A59B65F72444C1CE006864FC /* MzVoicer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MzVoicer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59B65FA2444C1CE006864FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A59B65FB2444C1CE006864FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A59B66062444C1CF006864FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A59B66092444C1CF006864FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A59B660B2444C1CF006864FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A59B660C2444C1CF006864FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A59B66162444C24F006864FC /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A59B66172444C24F006864FC /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E645DFF17C206CA786082A07 /* Pods_MzVoicer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MzVoicer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE21F4AC2447012E0047FEBD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		EE21F4AE244704EF0047FEBD /* MzVoicer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MzVoicer.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +36,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4C23350DD054501BA7320B /* Pods_MzVoicer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D3D110A5DAA053E38A1D745 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E645DFF17C206CA786082A07 /* Pods_MzVoicer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B7B166EDB2C1A95F115819A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0317B4CC09027A70315FBC78 /* Pods-MzVoicer.debug.xcconfig */,
+				76C7AF782236FF87D9EEF771 /* Pods-MzVoicer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A59B65EE2444C1CE006864FC = {
 			isa = PBXGroup;
 			children = (
+				EE21F4AE244704EF0047FEBD /* MzVoicer.pch */,
 				A59B65F92444C1CE006864FC /* MzVoicer */,
 				A59B65F82444C1CE006864FC /* Products */,
+				9B7B166EDB2C1A95F115819A /* Pods */,
+				4D3D110A5DAA053E38A1D745 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,8 +87,8 @@
 				A59B66132444C201006864FC /* Model */,
 				A59B65FA2444C1CE006864FC /* AppDelegate.h */,
 				A59B65FB2444C1CE006864FC /* AppDelegate.m */,
+				EE21F4AC2447012E0047FEBD /* Launch Screen.storyboard */,
 				A59B66062444C1CF006864FC /* Assets.xcassets */,
-				A59B66082444C1CF006864FC /* LaunchScreen.storyboard */,
 				A59B660B2444C1CF006864FC /* Info.plist */,
 				A59B660C2444C1CF006864FC /* main.m */,
 			);
@@ -99,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A59B66102444C1CF006864FC /* Build configuration list for PBXNativeTarget "MzVoicer" */;
 			buildPhases = (
+				DCD21D392C9DA4CF3EAF2EFF /* [CP] Check Pods Manifest.lock */,
 				A59B65F32444C1CE006864FC /* Sources */,
 				A59B65F42444C1CE006864FC /* Frameworks */,
 				A59B65F52444C1CE006864FC /* Resources */,
+				3CE8D45A1C275F01326F55F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,12 +177,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A59B660A2444C1CF006864FC /* LaunchScreen.storyboard in Resources */,
+				EE21F4AD2447012E0047FEBD /* Launch Screen.storyboard in Resources */,
 				A59B66072444C1CF006864FC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CE8D45A1C275F01326F55F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MzVoicer/Pods-MzVoicer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MzVoicer/Pods-MzVoicer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MzVoicer/Pods-MzVoicer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD21D392C9DA4CF3EAF2EFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MzVoicer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A59B65F32444C1CE006864FC /* Sources */ = {
@@ -168,17 +238,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A59B66082444C1CF006864FC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A59B66092444C1CF006864FC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A59B660E2444C1CF006864FC /* Debug */ = {
@@ -293,11 +352,13 @@
 		};
 		A59B66112444C1CF006864FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0317B4CC09027A70315FBC78 /* Pods-MzVoicer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2020.04.14;
+				CURRENT_PROJECT_VERSION = 2020.04.15;
 				DEVELOPMENT_TEAM = XYFPU28B7N;
+				GCC_PREFIX_HEADER = /Users/lmz/Gits/MzVoicer/MzVoicer.pch;
 				INFOPLIST_FILE = MzVoicer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,11 +372,13 @@
 		};
 		A59B66122444C1CF006864FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C7AF782236FF87D9EEF771 /* Pods-MzVoicer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2020.04.14;
+				CURRENT_PROJECT_VERSION = 2020.04.15;
 				DEVELOPMENT_TEAM = XYFPU28B7N;
+				GCC_PREFIX_HEADER = /Users/lmz/Gits/MzVoicer/MzVoicer.pch;
 				INFOPLIST_FILE = MzVoicer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
